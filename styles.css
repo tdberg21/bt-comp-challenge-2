@@ -1,0 +1,16 @@
+
+
+
+header {
+  background-color: blue;
+  display: flex;
+  height: 200px;
+}
+
+nav {
+  width: 50%;
+}
+
+article {
+  display: inline-block;
+}
