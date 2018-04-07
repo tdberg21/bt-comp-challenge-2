@@ -1,0 +1,52 @@
+
+
+/* Sections */
+header {
+  background-color: #2B2B2B;
+  height: 15vh;
+}
+
+main {
+  height: 85vh;
+  background-color: lightgrey;
+}
+
+nav {
+  align-items: flex-end;
+  display: flex;
+  width: 35%;
+  height: 15vh;
+  justify-content: space-around;
+  margin: 0;
+}
+
+article {
+  display: inline-block;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.2em
+}
+
+
+/* Images */
+.logo {
+  height: 50px;
+  width: 150px;
+  float: right;
+  position: relative;
+  top: 40px;
+  right: 10px;  
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+
