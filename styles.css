@@ -1,14 +1,18 @@
 
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* Sections */
 header {
   background-color: #2B2B2B;
   height: 15vh;
+  padding-bottom: 10px;
 }
 
 main {
-  height: 85vh;
-  background-color: lightgrey;
+  height: 1500px;
+  background-color: #F2F3F4 ;
 }
 
 nav {
@@ -24,29 +28,174 @@ article {
   display: inline-block;
 }
 
+.card-container {
+  padding-left: 20px;
+}
+
+/* Links and Text */
+
 a {
   color: #FFFFFF;
   text-decoration: none;
-  font-size: 1.2em
+  font-size: 1.1em
+}
+
+a:hover {
+  color: #05BEEC;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px;
+  font-weight: 400;
+  color: 797D7F;
+}
+
+#top-right-link {
+  margin: 0;
+  position: absolute;
+  left: 85%;
+  padding-top: 5px;
+  color: #05BEEC;
+  font-size: 0.8em;
+  font-weight: 300
+}
+
+#top-right-link:hover {
+  color: #FFFFFF;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.song-name {
+  padding-top: 5px;
+}
+
+h5 {
+  font-size: 0.6em;
+  line-height: 2em;
+}
+
+.embedded-links {
+  color: #2B2B2B;
+  background-color: lightgrey;
+  font-size: 10px;
+  margin-left: 8px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 10px;
+}
+
+.card-text {
+  padding-left: 8px;
+  margin: 0;
+  color: #535558;
+}
+
+.attachments-number {
+  color: #05BEEC;
+  font-weight: 400;
+  margin-top: 5px;
 }
 
 
 /* Images */
 .logo {
   height: 50px;
-  width: 150px;
+  width: 13%;
   float: right;
   position: relative;
   top: 40px;
-  right: 10px;  
+  right: 2%; 
+  margin: 0;
 }
 
 .icon {
   height: 20px;
   width: 20px;
+  position: relative;
+  top: 3px;
 }
 
+.next-icon {
+  height: 30px;
+  width: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
 
+#down-arrow {
+  height: 15px;
+  width: 11px;
+}
 
+/* cards */ 
+.card {
+  width: 23vw;
+  margin-right: 8px;
+}
+.card-top {
+  background-image: url(https://pixel.nymag.com/imgs/daily/intelligencer/2017/07/17/14-kid-rock.w710.h473.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 32vh;
+  width: 100%;
+  box-shadow: 3px 3px #ccc;
+}
 
+.card-bottom {
+  padding-top: 6px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px #ccc;
+  height: 32vh;
+  width: 100%;
+  margin-bottom: 4%;
+}
 
+div {
+  float: right;
+  padding-right: 5px;
+}
+
+.card1 {
+  background-image: url(https://www.mjwilsonphotography.com/wp-content/uploads/2012/10/kid-rock-web.jpg);
+}
+
+.card2 {
+  background-image: url(https://www.billboard.com/files/styles/article_main_image/public/stylus/1056399-kid-rock-sheryl-crow-617-409.jpg);
+}
+
+.card3 {
+  background-image: url(https://www.billboard.com/files/media/kid-rock-cmt-awards-2017-a-billboard-1548.jpg);
+}
+
+.card4 {
+  background-image: url(https://img.wennermedia.com/article-leads-horizontal/rs-181988-77509686.jpg);
+}
+
+.card5 {
+  background-image: url(http://img.wennermedia.com/social/rs-187057-kidrockbornfree.jpg);
+}
+
+.card6 {
+  background-image: url(http://www.rap-up.com/app/uploads/2011/11/kid-rock-ti-angaleena.jpg);
+}
+.card7 {
+  background-image: url(https://i.ytimg.com/vi/X8Djhnj2qMA/maxresdefault.jpg);
+}
+
+.card8 {
+  background-image: url(https://coubsecure-s.akamaihd.net/get/b58/p/coub/simple/cw_timeline_pic/f89c41164e5/76bf8a26295c79e96927e/med_1467595122_image.jpg);
+}
