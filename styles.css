@@ -154,6 +154,7 @@ p {
   width: 23vw;
   margin-right: 8px;
 }
+
 .card-top {
   background-image: url(https://pixel.nymag.com/imgs/daily/intelligencer/2017/07/17/14-kid-rock.w710.h473.jpg);
   background-size: cover;
@@ -179,9 +180,9 @@ div {
 
 .card1 {
   background: linear-gradient(
-      rgba(216, 169, 169, 0.2),
-      rgba(194, 192, 192, 0.5)),
-      url(https://www.mjwilsonphotography.com/wp-content/uploads/2012/10/kid-rock-web.jpg);
+    rgba(216, 169, 169, 0.2),
+    rgba(194, 192, 192, 0.5)),
+  url(https://www.mjwilsonphotography.com/wp-content/uploads/2012/10/kid-rock-web.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -213,4 +214,13 @@ div {
   background-image: url(https://coubsecure-s.akamaihd.net/get/b58/p/coub/simple/cw_timeline_pic/f89c41164e5/76bf8a26295c79e96927e/med_1467595122_image.jpg);
 }
 
+@media screen and (max-width: 1010px) {
+
+  .card {
+    width: 30vw;
+    margin-right: 8px;
+  }
+  #top-right-link {
+  left: 81%;
+}
 
