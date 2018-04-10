@@ -12,7 +12,7 @@ header {
 
 main {
   height: 1500px;
-  background-color: #F2F3F4 ;
+  background-color: #F2F3F4;
 }
 
 nav {
@@ -220,7 +220,8 @@ div {
     width: 30vw;
     margin-right: 8px;
   }
+
   #top-right-link {
-  left: 81%;
-}
+    left: 81%;
+  }
 
